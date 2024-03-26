@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: compile
-      run: xcompile.sh
+      run: bash xcompile.sh
     - uses: actions/upload-artifact@v4.3.1
