@@ -591,8 +591,8 @@ void MainWindow::save(QUrl url) {
         suffix = "png";
 
     //append a suffix to the map names (result: path/original_normal.png)
-    QString name_normal = file.absolutePath() + "/" + file.baseName() + "_normal." + suffix;
-    QString name_specular = file.absolutePath() + "/" + file.baseName() + "_spec." + suffix;
+    QString name_normal = file.absolutePath() + "/" + file.baseName() + "_n." + suffix;
+    QString name_specular = file.absolutePath() + "/" + file.baseName() + "_s." + suffix;
     QString name_displace = file.absolutePath() + "/" + file.baseName() + "_displace." + suffix;
 
     bool successfullySaved = true;
